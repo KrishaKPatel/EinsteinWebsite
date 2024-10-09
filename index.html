@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Einstein Website</title>
+</head>
+<body>
+    <div class="Parent">
+        <header>
+            <nav id="nav">
+                <button class="hamburger" onclick="onHandleClick()">☰</button>
+                <div class="Child1" id="myheader">
+                    <p><a href="#About">About</a></p>
+                    <p><a href="#bcon">Books</a></p>
+                    <p><a href="#Hobby">Hobby</a></p>
+                    <p><a href="#imgs">Images</a></p>
+                    <p><a href="#pubpapers">Papers</a></p>
+                    <p><a href="#blogs">Blogs</a></p>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="About" class="Child2">
+                <div class="logo">
+                    <img src="/profile.jpg" alt="">
+                </div>
+                <div class="About">
+                    <p class="name">Albert Einstein</p>
+                    <p class="position">Theoretical physicist</p>
+                    <p class="info">Albert Einstein was born in Ulm, in the Kingdom of Württemberg in the German Empire, on 14 March 1879. Einstein excelled at physics and mathematics from an early age, and soon acquired the mathematical expertise normally only found in a child several years his senior. He began teaching himself algebra, calculus and Euclidean geometry when he was twelve; he made such rapid progress that he discovered an original proof of the Pythagorean theorem before his thirteenth birthday.Einstein's first paper submitted in 1900 to Annalen der Physik was on capillary attraction. It was published in 1901 with the title "Folgerungen aus den Capillaritätserscheinungen", which translates as "Conclusions from the capillarity phenomena". In 1917, at the height of his work on relativity, Einstein published an article in Physikalische Zeitschrift that proposed the possibility of stimulated emission, the physical process that makes possible the maser and the laser. </p>
+                </div>
+            </section>
+            <section id="bcon">
+                <p class="title">Books</p>
+                <div id="books">
+                    <div id="b1" class="books">
+                        <img src="/book1.jpg" alt="Relativity">
+                        <p class="bt">Relativity: The Special and General Theory</p>
+                    </div>
+                    <div id="b2" class="books">
+                        <img src="/book2.jpg" alt="The World As I See It">
+                        <p class="bt">Out of My Later Years</p>
+                    </div>
+                    <div id="b3" class="books">
+                        <img src="/book3.jpg" alt="Out of My Later Years">
+                        <p class="bt">The World As I See It</p>
+                    </div>
+                    <div id="b4" class="books">
+                        <img src="/book4.jpg" alt="Ideas and Opinions">
+                        <p class="bt">Einstein's Essay in Science</p>
+                    </div>
+                </div>
+            </section>
+            <section id="Hobby" class="Hobby">
+                <p class="title">Hobbies</p>
+                <div class="no">
+                    <p>Playing the violin</p>
+                    <p>Sailing</p>
+                    <p>Reading</p>
+                    <p>Walking</p>
+                    <p>Puzzles and chess</p>
+            </section>
+            <section id="imgs">
+                <p class="title">Images</p>
+                <div id="pics">
+                    <div class="pic">
+                        <img src="/img1.jpg" alt="">
+                    </div>
+                    <div class="pic">
+                        <img src="/img2.jpg" alt="">
+                    </div>
+                    <div class="pic">
+                        <img src="/img3.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section id="last">
+                <section id="pubpapers">
+                    <p class="title">Papers</p>
+                    <div id="pcon">
+                        <div id="paper" class="paper">
+                            <img src="/paper.png" alt="">
+                            <a href="https://en.wikisource.org/wiki/On_the_Electrodynamics_of_Moving_Bodies_(1920_edition)">On the Electrodynamics of Moving Bodies</a>
+                        </div>
+                        <div id="paper" class="paper">
+                            <img src="/paper.png" alt="">
+                            <a href="https://www.fourmilab.ch/etexts/einstein/E_mc2/www/">Does the Inertia of a Body Depend Upon Its Energy Content?</a>
+                        </div>
+                        <div id="paper" class="paper">
+                            <img src="/paper.png" alt="">
+                            <a href="https://www.privatdozent.co/p/einsteins-1905-paper-on-the-photoelectric-8e3">On the Photoelectric Effect</a>
+                        </div>
+                        <div id="paper" class="paper">
+                            <img src="/paper.png" alt="">
+                            <a href="https://www.jstor.org/stable/24967425">On the Generalized Theory of Gravitation</a>
+                        </div>
+                        <div id="paper" class="paper">
+                            <img src="/paper.png" alt="">
+                            <a href="https://en.wikisource.org/wiki/The_Foundation_of_the_Generalised_Theory_of_Relativity">The Foundation of the Generalized Theory of Relativity</a>
+                        </div>
+                        <div id="paper" class="paper">
+                            <img src="/paper.png" alt="">
+                            <a href="https://pubs.aip.org/physicstoday/article-abstract/58/2/30/904451/Rereading-Einstein-on-RadiationThe-concepts-of?redirectedFrom=fulltext">The Quantum Theory of Radiation</a>
+                        </div>
+                        <div id="paper" class="paper">
+                            <img src="/paper.png" alt="">
+                            <a href="https://www.e-education.psu.edu/earth104/node/1253">The Relation Between the Entropy and the Energy of a Body</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="blogs">
+                    <p class="title">Blogs</p>
+                    <div id="blogarea">
+                        <textarea name="barea" id="barea" placeholder="Enter something here.."></textarea>
+                    <input type="submit" value="Submit" id="submit">
+                    </div>
+                </section>    
+            </section>
+        </main>            
+    </div>
+</body>
+</html>
